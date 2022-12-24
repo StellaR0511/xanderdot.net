@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+marquee{
+    background-color: dodgerblue;
+    color: ghostwhite
+}
+hr.rounded {
+  border-top: 8px solid;
+  border-radius: 5px;
+  border-color: darkblue; 
+}
+li .list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12{
+    
+    text-align: center;
+}
+h4 .hi{
+    font-size: 800px;
+}
+img{
+    height: 400px
+}

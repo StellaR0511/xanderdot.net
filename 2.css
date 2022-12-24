@@ -1,0 +1,58 @@
+
+h1{
+    color: gold;
+    background-color: black;
+    font-family: 'Unbounded', cursive;
+    padding: 5px;
+
+}
+#showSketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name:test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes test{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px gold;
+    }
+}
+p{
+    padding-top:10px;
+    font-size:25px;
+}
+#label, #confidence{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-lg{
+    font-family: 'Nunito', sans-serif;
+    color: gold;
+    background-color: black;
+}
+
+
+
+.modal-title{
+    font-family: 'Unbounded', cursive;
+    color: black;
+}
+
+.starter{
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+    position: left;
+    position: bottom;
+
+}
